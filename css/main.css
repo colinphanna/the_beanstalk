@@ -5,16 +5,55 @@
    ========================================================================== */
 
 body {
-  background: url(../img/bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: linear-gradient(rgba(240, 240, 230, 0.05), rgba(240, 240, 230, 0.05)), url(../img/redox_01.png) repeat;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+html {
+  height: 100%;
 }
 
 .content {
-  background-color: grey;
+  background-color: rgba(240, 240, 230, 0.9);
+  border-radius: 10px;
+  border: solid 2px rgb(205, 192, 176);
+  padding: 20px 40px 40px 40px;
+  position: relative;
+}
+
+.logo {
+  height: 150px;
+  float: right;
+  margin-bottom: -20px;
+  margin-right: -20px;
+}
+
+.social-logos {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
+.social-logos a {
+  color: #42872D;
+}
+
+.social-logos a:hover {
+  color: rgba(66, 135, 45, .8);
+}
+
+.fa-facebook {
+  margin-right: 20px;
+}
+
+.map {
+  margin: 20px 0 40px 0;
+}
+
+.map-container > iframe {
+  width: 100%;
 }
